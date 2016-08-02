@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Lato:700,400,300);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+.logo {
+  width:90px;
+}
+
+.logo-text {
+  font-family: 'Satisfy', cursive;
+  font-size:38px;
+  color:#ff827b;
+}
+
+.nav {
+  font-size:20px;
+  color:#61aee6;
+}
+
+.nav-tabs {
+  border:none;
+  padding-top:31px;
+}
+
+.jumbotron {
+  padding-top:0px;
+}
+
+.jumbotron, .container-fluid {
+  padding-left:0px !important; padding-right:0px !important;
+  background-color:transparent;
+}
+
+
+.hero-img {
+  width:100%; height:60vh;
+  background: url('../img/hero.jpg');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-text {
+  text-transform: uppercase;
+  color: #FFF;
+  text-align:center;
+  font-size:40px !important; font-weight:300;
+  font-family: 'Lato', sans-serif;
+  padding-top:4.50%
+}
+
+/*===============================products/*===============================*/
+.padding-0 .col-md-4 {
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+.thumbnail {
+  background-color:#EDF1F4;
+  padding:10px;
+  margin-right:10px;
+  border:none;
+}
+
+.thumbnail .btn {
+  background-color:#5BC0DE;
+  border:none;
+  padding:2px 8px;
+}
+
+.thumbnail .btn:hover {
+  background-color:#989fa1;
+}
+
+.thumbnail h3 {
+  font-weight:bold;
+}
+
+.featured-text {
+  text-transform:uppercase;
+  font-weight:bold;
+}
+
+.feature-p {
+  font-weight:bold;
+}
+
+.adopt-text {
+  text-align:center;
+  line-height:2em;
+  font-weight:bold;
+}
+
+.adopt-text a {
+  text-transform: uppercase;
+  color:#5BC0DE;
+}
+
+.adopt-text a:hover {
+  text-decoration: none;
+  color:#989fa1;
+}
+
+/*======================footer===================*/
+.footer {
+  background-color:#231f20;
+  min-height:90px;
+  margin-top:20px;
+  color:#FFF;
+}
+
+.footer-logo {
+  width:110px;
+}
+
+.footer-cols {
+  border-right:1px solid #333;
+}
+
+.footer address:hover, .footer address a:hover {
+  color:#ff827b;
+  text-decoration:none;
+}
+
+.footer address {
+  padding-left:20px;
+}
+
+.footer a {
+  color: #FFF;
+}
+
+.soc-link:hover {
+  color:#ff827b;
+  text-decoration:none;
+}
+
+.inner-footer {
+    padding:20px;
+}
+
+.fa {
+  color:#BFc0c1;
+}
+
+i {
+  padding-right:6px;
+}
+
+.copy {
+  color:#4c4c4c;
+}
+/*====================== end footer===================*/
+
+/*========CONTACT STYLES========*/
+
+.profile-img {
+  height:210px; width:auto;
+  padding:20px 40px 0px 20px;
+}
+
+.profile-text {
+  font-weight:600;
+}
+
+.phone-table {
+  margin-top: 20px;
+}
+.phone-table tr {
+  border-bottom:1.5px solid #BBB;
+}
+
+.phone-table th {
+  padding-bottom:10px;
+  font-size:18px;
+}
+
+.phone-table td {
+  padding:10px 120px 10px 0px;
+  font-size:16px; font-weight:bold;
+}
